@@ -10,5 +10,7 @@ module.exports = {
     'max-len': ['error', { code: 100 }],
     semi: [2, 'never'],
     '@typescript-eslint/no-unused-vars': 'off',
+    'no-plusplus': 'off',
+    'lines-between-class-members': 'off',
   },
 }

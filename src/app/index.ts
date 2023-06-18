@@ -8,5 +8,5 @@ function onEdit(e: OnEditEvent) {
 
   if (!isDropdownList || !isDropdownCell) return
 
-  updateProfileData()
+  profileDataManager.update()
 }
