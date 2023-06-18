@@ -6,6 +6,6 @@ function getSelectedProfileData(columnName: ColumnData): string {
 
   const profilesDataRange = profilesList.getRange(range).getValues()
 
-  const result = vlookup(dropdownValue, profilesDataRange, index)
-  return result
+  const profileData = vlookup(dropdownValue, profilesDataRange, index)
+  return profileData
 }
